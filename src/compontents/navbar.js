@@ -5,7 +5,7 @@ import logo from '../assets/img2.jpg';
 
 function NavbarComponent() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+    <Navbar bg="dark" data-bs-theme="dark" expand="sm" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home"><img src={logo} alt="logo" className="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

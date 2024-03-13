@@ -14,7 +14,7 @@ const Skills = () => {
   return (
    <section id='skills'>
     <span className='skilltitle'>SKILLS</span>
-    <p className='skillpara'>Enthusiastic and creative individual passionate about frontend development and UI/UX design. Possessing a solid foundation in HTML, CSS, and JavaScript, coupled with a keen eye for design aesthetics. Eager to leverage academic knowledge and personal projects to contribute to dynamic teams in delivering engaging user experiences. Seeking opportunities to grow and learn in a collaborative environment.</p>
+    <p className='skillpara'>I'm a skilled Frontend Web Developer with experience in JavaScript and expertise in frameworks/library like React.js and Bootstap. I'm a quick learner and collaborate closely with clients to create efficientm scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!</p>
     <div className='image-container'>
     <Container >
       <Row>

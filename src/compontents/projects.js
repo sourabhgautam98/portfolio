@@ -33,7 +33,7 @@ const Projects = () => {
                   stakeholders to ensure alignment with project goals.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary">Go to figma</Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=12%3A158&mode=design&t=5FneHP878gjSh2sy-1">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -51,7 +51,7 @@ const Projects = () => {
                   integration.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary">Go to figma</Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=23%3A2&mode=design&t=5FneHP878gjSh2sy-1">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -69,7 +69,7 @@ const Projects = () => {
                   considerations
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary">Go to figma</Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/SFfim31dP9uCgp6AOL3Gpf/project?type=design&node-id=14%3A5&mode=design&t=1Nx8fhv46ReFXGe8-1">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -87,7 +87,7 @@ const Projects = () => {
                   conversions.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary">Go to figma</Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=50%3A2&mode=design&t=5FneHP878gjSh2sy-1">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -101,7 +101,7 @@ const Projects = () => {
                 Weather is your go-to destination for up-to-the-minute weather updates in your area. With a sleek and minimalist design, our website offers all the essential information you need to plan your day or week effectively. Whether you're a commuter, a traveler, or simply curious about the weather, WeatherWatch provides accurate and reliable data at your fingertips.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary">Go to github</Button>
+                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/weather-website">Go to Github</a></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -115,7 +115,7 @@ const Projects = () => {
                 News is your gateway to staying informed with the latest breaking news as it happens. Our minimalist-designed website delivers a seamless news browsing experience without overwhelming clutter, ensuring that you get the news you need without unnecessary distractions. Whether you're a news junkie, a professional staying abreast of current events.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary">Go to github</Button>
+                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/firstlook">Go to Github</a></Button>
                 </div>
               </Card.Body>
             </Card>
