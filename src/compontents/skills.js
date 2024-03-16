@@ -18,13 +18,13 @@ const Skills = () => {
     <div className='image-container'>
     <Container >
       <Row>
-        <Col><img src={html} alt="" /></Col>
-        <Col><img src={css} alt="" /></Col>
-        <Col><img src={js} alt="" /></Col>
-        <Col><img src={react} alt="" /></Col>
-        <Col><img src={Github} alt="" /></Col>
-        <Col><img src={boot} alt="" /></Col>
-        <Col><img src={figma} alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3} ><img src={html} alt="html" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src={css} alt="css" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src={js} alt="js" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src={react} alt="raect" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src={Github} alt="github" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src={boot} alt="bootstarp" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src={figma} alt="figma" /></Col>
       </Row>
     </Container>
         </div>
