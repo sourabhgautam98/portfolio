@@ -10,119 +10,40 @@ import weather from "../assets/img14.png"
 import travel from "../assets/img13.png"
 import news from "../assets/img15.png"
 import weathers from "../assets/img16.png"
+import projectData from "../data";
 
 const projects = () => {
+  const projectsData = projectData(); 
+
   return (
-    <section id="projects">
+    <>
+
+    {/* // <section id="projects"> */}
       <span style={{textAlign:"center"}} className="projecttitle">My Recent Project</span>
       <p className="projectpara">
         Here are a projects i`vs worked on recently.
       </p>
-      <Container>
+
         <Row>
-          <Col xs={12} sm={6}  lg={4} className="projgap">
-            <Card className="smallpro" >
-              <Card.Img variant="top" src={laptop}/>
+          {projectsData.map((data)=>(
+          <Col  xs={12} sm={6} md={4} lg={4} key={data.id} style={{display:"flex",justifyContent:"center"}}>
+            <Card className="cards" >
+              {/* <Card.Img variant="top" src={laptop}/> */}
               <Card.Body>
-                <Card.Title className="namepro">Laptop Ui Design</Card.Title>
-                <Card.Text className="prop">
-                  Implemented parallax scroll effect for Mac laptop interface
-                  design in Figma, enhancing user engagement through dynamic
-                  visual depth. Utilized Figma's interactive features for
-                  seamless prototyping and collaborated closely with
-                  stakeholders to ensure alignment with project goals.
+                <Card.Title className="cardTitle">{data.title}</Card.Title>
+                <Card.Text className="cardDescription">
+                {data.description}
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=12%3A158&mode=design&t=5FneHP878gjSh2sy-1" target="_blank" rel="noreferrer">Go to figma</a></Button>
+                  <Button variant="primary" ><a href={data.url} target="_blank" rel="noreferrer">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6}  lg={4}  className="projgap">
-          <Card className="smallpro" >
-              <Card.Img variant="top" src={headphone} />
-              <Card.Body>
-                <Card.Title className="namepro">Headphone Ui Design</Card.Title>
-                <Card.Text className="prop">
-                  Designed a cutting-edge mesh gradient headphone concept using
-                  Figma, emphasizing sleek aesthetics and ergonomic comfort.
-                  Employed UI/UX principles to craft a visually captivating
-                  design, collaborating closely with stakeholders for feedback
-                  integration.
-                </Card.Text>
-                <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=23%3A2&mode=design&t=5FneHP878gjSh2sy-1"  target="_blank" rel="noreferrer">Go to figma</a></Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xs={12} sm={6} lg={4}  className="projgap">
-          <Card className="smallpro" >
-              <Card.Img variant="top" src={weather} />
-              <Card.Body>
-                <Card.Title className="namepro">Weather Ui Design</Card.Title>
-                <Card.Text className="prop">
-                  Crafted a visually engaging and user-friendly weather app
-                  interface in Figma, featuring real-time weather updates,
-                  intuitive navigation, and responsive design. Integrated APIs
-                  for accurate data retrieval and prioritized accessibility
-                  considerations
-                </Card.Text>
-                <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/SFfim31dP9uCgp6AOL3Gpf/project?type=design&node-id=14%3A5&mode=design&t=1Nx8fhv46ReFXGe8-1" target="_blank" rel="noreferrer">Go to figma</a></Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xs={12} sm={6}  lg={4}  className="projgap">
-          <Card className="smallpro" >
-              <Card.Img variant="top" src={travel} />
-              <Card.Body>
-                <Card.Title className="namepro">Travel Ui Design</Card.Title>
-                <Card.Text className="prop">
-                  Designed a captivating travel package website interface using
-                  Figma, focusing on seamless user experience and visually
-                  enticing layouts. Incorporated intuitive navigation, stunning
-                  imagery, and clear callto-action elements to drive
-                  conversions.
-                </Card.Text>
-                <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=50%3A2&mode=design&t=5FneHP878gjSh2sy-1" target="_blank" rel="noreferrer">Go to figma</a></Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xs={12} sm={6}  lg={4}  className="projgap">
-          <Card className="smallpro" >
-              <Card.Img variant="top" src={weathers} />
-              <Card.Body>
-                <Card.Title className="namepro">Weather App React js</Card.Title>
-                <Card.Text className="prop">
-                Weather is your go-to destination for up-to-the-minute weather updates in your area. With a sleek and minimalist design, our website offers all the essential information you need to plan your day or week effectively. Whether you're a commuter, a traveler, or simply curious about the weather, WeatherWatch provides accurate and reliable data at your fingertips.
-                </Card.Text>
-                <div className="d-grid">
-                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/weather-website" target="_blank" rel="noreferrer">Go to Github</a></Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xs={12} sm={6} lg={4}  className="projgap">
-          <Card className="smallpro" >
-              <Card.Img variant="top" src={news} />
-              <Card.Body>
-                <Card.Title className="namepro">News App React js</Card.Title>
-                <Card.Text className="prop">
-                News is your gateway to staying informed with the latest breaking news as it happens. Our minimalist-designed website delivers a seamless news browsing experience without overwhelming clutter, ensuring that you get the news you need without unnecessary distractions. Whether you're a news junkie, a professional staying abreast of current events.
-                </Card.Text>
-                <div className="d-grid">
-                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/firstlook" target="_blank" rel="noreferrer">Go to Github</a></Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+            ))}
+          </Row>
+
+    </>
   );
 };
 

@@ -186,15 +186,13 @@
   
 }
 
-.projgap{
-  margin: 10px 0px;
-}
 
-.namepro{
+
+.cardTitle{
   font-size: 10px;
 }
 
-.prop{
+.cardDescription{
   font-size: 10px;
 }
 
@@ -203,19 +201,22 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+  align-content: center;
 }
-.smallpro{
+.cards{
+
   height: 25rem;
   width: 15rem;
+  margin-bottom: 10px;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .smallpro {
     height:18rem ;
     width: 13rem;
     margin: 10px 50px;
   }
-}
+} */
 
 
 /* keyframes */
