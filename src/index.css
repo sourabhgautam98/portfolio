@@ -2,14 +2,13 @@
 
 .logo{
   object-fit: cover;
-  height: 1rem;
+  height: 1.5rem;
   width: 7rem;
-  animation: slideRight 1s ease forwards;
+  animation: imgLeft 1s ease forwards;
+  filter: drop-shadow(3px 3px yellow);
 }
 
-.bg-body-tertiary{
-  height: 50px;
-}
+
 .navbarname{
   text-decoration: none;
   color: white;
@@ -21,16 +20,16 @@
   font-size: 15px;
   font-weight: 600;
   gap: 20px;
-  color: white;
+  color: #fff;
   animation: imgLeft 1s ease forwards;
   animation-delay: .7s;
 }
 
 @media (max-width: 997px) {
   .me-auto {
-    justify-content: left;
-    align-items: start;
-    gap: 0px;
+    align-items: end;
+    gap: 10px;
+    margin-top: 10px;
     
   }
 }
@@ -48,13 +47,22 @@
 .bg{
   position: absolute;
   object-fit: cover;
-  height: 20rem;
+  height: 18rem;
   top: 5rem;
-  right: 1rem;
+  right: 0;
   overflow: hidden;
   animation: slideLeft 1s ease forwards;
   animation-delay: .7s;
 }
+
+@media (max-width: 997px) {
+  .bg {
+    height: 8rem;
+    top: 17rem;
+    right: 0;
+  }
+}
+
 
 .introcontent{
   height: 80vh;
@@ -89,6 +97,7 @@
 
 .introname{
   color: yellow;
+  filter: drop-shadow(3px 3px rgb(90, 64, 64));
   animation: slideRight 1s ease forwards;
   animation-delay: .7s;
 }
@@ -99,6 +108,7 @@
   animation-delay: .7s;
 }
 .btn{
+  width: 10rem;
   animation: slideRight 1s ease forwards;
   animation-delay: .7s;
 }
@@ -122,10 +132,11 @@
   font-size: 50px;
   font-family: 500;
   color: white;
+  animation: slideBottom 1s ease forwards;
 }
 
 .skillpara {
-  text-align: center;
+  text-align: left;
   max-width: 1000px; 
   margin: 0 auto 30px; 
   padding: 10px;
@@ -159,17 +170,17 @@
 
 .projecttitle {
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   margin-top: 130px;
   font-size: 50px;
-  font-family: 500;
+  font-family: 700;
   color: white;
 }
 
 .projectpara {
   text-align: center; 
   max-width: 1000px; 
-  margin: 0 auto 100px; 
+  margin: 0 auto 25px; 
   padding: 20px;
   color: white;
   
@@ -193,25 +204,16 @@
   font-size: 16px;
   font-weight: 600;
 }
-
-@media (max-width: 1001px) {
-  .projgap {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    margin: 50px; 
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
+.smallpro{
+  height: 25rem;
+  width: 15rem;
 }
-@media (max-width: 640px) {
-  .projgap {
-    display: grid;
-    grid-template-columns: 1fr ; 
-    justify-content: center;
-    align-items: center;
-    margin: 20px 20px;
-    padding: 20px 20px;
+
+@media (max-width: 400px) {
+  .smallpro {
+    height:18rem ;
+    width: 13rem;
+    margin: 10px 50px;
   }
 }
 

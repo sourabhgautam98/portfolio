@@ -20,8 +20,8 @@ const projects = () => {
       </p>
       <Container>
         <Row>
-          <Col xs={12} sm={6} md={4} lg={4} className="projgap">
-            <Card style={{ width: "15rem", height:"25rem" }}>
+          <Col xs={12} sm={6}  lg={4} className="projgap">
+            <Card className="smallpro" >
               <Card.Img variant="top" src={laptop}/>
               <Card.Body>
                 <Card.Title className="namepro">Laptop Ui Design</Card.Title>
@@ -33,13 +33,13 @@ const projects = () => {
                   stakeholders to ensure alignment with project goals.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=12%3A158&mode=design&t=5FneHP878gjSh2sy-1">Go to figma</a></Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=12%3A158&mode=design&t=5FneHP878gjSh2sy-1" target="_blank" rel="noreferrer">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={4}  className="projgap">
-            <Card style={{  width: "15rem", height:"25rem" }}>
+          <Col xs={12} sm={6}  lg={4}  className="projgap">
+          <Card className="smallpro" >
               <Card.Img variant="top" src={headphone} />
               <Card.Body>
                 <Card.Title className="namepro">Headphone Ui Design</Card.Title>
@@ -51,13 +51,13 @@ const projects = () => {
                   integration.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=23%3A2&mode=design&t=5FneHP878gjSh2sy-1">Go to figma</a></Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=23%3A2&mode=design&t=5FneHP878gjSh2sy-1"  target="_blank" rel="noreferrer">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={4}  className="projgap">
-            <Card style={{  width: "15rem", height:"25rem" }}>
+          <Col xs={12} sm={6} lg={4}  className="projgap">
+          <Card className="smallpro" >
               <Card.Img variant="top" src={weather} />
               <Card.Body>
                 <Card.Title className="namepro">Weather Ui Design</Card.Title>
@@ -69,13 +69,13 @@ const projects = () => {
                   considerations
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/SFfim31dP9uCgp6AOL3Gpf/project?type=design&node-id=14%3A5&mode=design&t=1Nx8fhv46ReFXGe8-1">Go to figma</a></Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/SFfim31dP9uCgp6AOL3Gpf/project?type=design&node-id=14%3A5&mode=design&t=1Nx8fhv46ReFXGe8-1" target="_blank" rel="noreferrer">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={4}  className="projgap">
-            <Card style={{  width: "15rem", height:"25rem" }}>
+          <Col xs={12} sm={6}  lg={4}  className="projgap">
+          <Card className="smallpro" >
               <Card.Img variant="top" src={travel} />
               <Card.Body>
                 <Card.Title className="namepro">Travel Ui Design</Card.Title>
@@ -87,13 +87,13 @@ const projects = () => {
                   conversions.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=50%3A2&mode=design&t=5FneHP878gjSh2sy-1">Go to figma</a></Button>
+                  <Button variant="primary"><a href="https://www.figma.com/file/cpr93hc2YoupdI6Ir7TAWh/3-projects?type=design&node-id=50%3A2&mode=design&t=5FneHP878gjSh2sy-1" target="_blank" rel="noreferrer">Go to figma</a></Button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={4}  className="projgap">
-            <Card style={{ width: "15rem", height:"25rem" }}>
+          <Col xs={12} sm={6}  lg={4}  className="projgap">
+          <Card className="smallpro" >
               <Card.Img variant="top" src={weathers} />
               <Card.Body>
                 <Card.Title className="namepro">Weather App React js</Card.Title>
@@ -101,13 +101,13 @@ const projects = () => {
                 Weather is your go-to destination for up-to-the-minute weather updates in your area. With a sleek and minimalist design, our website offers all the essential information you need to plan your day or week effectively. Whether you're a commuter, a traveler, or simply curious about the weather, WeatherWatch provides accurate and reliable data at your fingertips.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/weather-website">Go to Github</a></Button>
+                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/weather-website" target="_blank" rel="noreferrer">Go to Github</a></Button>
                 </div>
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={6} md={4} lg={4}  className="projgap">
-            <Card style={{  width: "15rem", height:"25rem" }}>
+          <Col xs={12} sm={6} lg={4}  className="projgap">
+          <Card className="smallpro" >
               <Card.Img variant="top" src={news} />
               <Card.Body>
                 <Card.Title className="namepro">News App React js</Card.Title>
@@ -115,7 +115,7 @@ const projects = () => {
                 News is your gateway to staying informed with the latest breaking news as it happens. Our minimalist-designed website delivers a seamless news browsing experience without overwhelming clutter, ensuring that you get the news you need without unnecessary distractions. Whether you're a news junkie, a professional staying abreast of current events.
                 </Card.Text>
                 <div className="d-grid">
-                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/firstlook">Go to Github</a></Button>
+                  <Button variant="primary"><a href="https://github.com/sourabhgautam98/firstlook" target="_blank" rel="noreferrer">Go to Github</a></Button>
                 </div>
               </Card.Body>
             </Card>
