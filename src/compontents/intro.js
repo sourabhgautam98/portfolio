@@ -1,15 +1,12 @@
 import React from "react";
 import { Col } from "react-bootstrap";
-import img3 from "../assets/img3.png";
-import github from "../assets/img17.jpg";
-import linkedin from "../assets/img18.png";
 import Button from "react-bootstrap/Button";
 
 const intro = () => {
   return (
     <Col>
       <section id="intro">
-        <img src={img3} alt="profile" className="bg" />
+        <img src='./assets/img3.png' alt="profile" className="bg" />
         <div className="introcontent">
           <h2 className="hello">Hello,</h2>
           <h1 className="introtext">
@@ -32,10 +29,10 @@ const intro = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} alt="github" />
+              <img src='./assets/img17.jpg' alt="github" />
             </a>
-            <a href="https://in.linkedin.com/" target="_blank" rel="noreferrer">
-              <img src={linkedin} alt="linkedin" />
+            <a href="https://www.linkedin.com/in/sourabh-gautam-733a202ba/" target="_blank" rel="noreferrer">
+              <img src='./assets/img18.png' alt="linkedin" />
             </a>
           </div>
         </div>

@@ -2,13 +2,11 @@
 
 .logo{
   object-fit: cover;
-  height: 1.5rem;
-  width: 7rem;
+  height: 30px;
+  width: 30px;
   animation: imgLeft 1s ease forwards;
-  filter: drop-shadow(3px 3px yellow);
+  filter: drop-shadow(2px 2px white);
 }
-
-
 .navbarname{
   text-decoration: none;
   color: white;
@@ -30,7 +28,6 @@
     align-items: end;
     gap: 10px;
     margin-top: 10px;
-    
   }
 }
 
@@ -83,9 +80,7 @@
   animation-delay: .7s;
 }
 
-.social-icons img:hover {
-  transform: scale(1.3);
-}
+
 
 .hello{
   font-size: 1.75rem;
@@ -114,7 +109,7 @@
 }
 
 .btn a{
-  padding: 10px;
+  padding: 10px 0;
   color: black;
   text-decoration: none;
 }
@@ -149,14 +144,16 @@
   padding: 25px;
 }
 
-.image-container img {
+.image-container .skillsicon {
+  background: white;
  height: 75px;
+ width: 75px;
   margin: 20px 5px; 
   gap: 10px;
   border-radius: 50%;
 }
 
-.image-container img:hover{
+.image-container .skillsicon:hover{
  transform: scale(1.3);
  }
 
@@ -185,9 +182,6 @@
   color: white;
   
 }
-
-
-
 .cardTitle{
   font-size: 10px;
 }
@@ -204,10 +198,8 @@
   align-content: center;
 }
 .cards{
-
-  height: 25rem;
   width: 15rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* @media (max-width: 400px) {

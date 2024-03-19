@@ -1,14 +1,14 @@
 import React from 'react'
-import html from '../assets/img6.jpg'
-import css from '../assets/img5.jpg'
-import js from '../assets/img8.jpg'
-import react from '../assets/img7.jpg'
-import Github from '../assets/img9.png'
-import figma from '../assets/img4.jpg'
-import boot from '../assets/img10.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { TfiHtml5 } from "react-icons/tfi";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { BsBootstrapFill } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoFigma } from "react-icons/io5";
 
 const Skills = () => {
   return (
@@ -18,13 +18,13 @@ const Skills = () => {
     <div className='image-container'>
     <Container >
       <Row>
-        <Col xs={12} sm={6} md={4} lg={3} ><img src={html} alt="html" /></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><img src={css} alt="css" /></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><img src={js} alt="js" /></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><img src={react} alt="raect" /></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><img src={Github} alt="github" /></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><img src={boot} alt="bootstarp" /></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><img src={figma} alt="figma" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><TfiHtml5 color='#DD4B25' className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><IoLogoCss3 color='#254BDD' className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><IoLogoJavascript color='#EFD31D' className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><FaReact color='#5ED3F3' className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><BsBootstrapFill color='#6F11EF' className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><FaGithub color='#000000' className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><IoLogoFigma  className='skillsicon'/></Col>
       </Row>
     </Container>
         </div>

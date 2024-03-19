@@ -26,7 +26,7 @@ function NavbarComponent() {
       spy={true} 
       smooth={true} 
       offset={-50} 
-      duration={500} className='navbarname' href="#projects">Projects</Link>
+      duration={500} className='navbarname' href="# projectsData">Projects</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
