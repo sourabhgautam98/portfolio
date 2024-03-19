@@ -71,7 +71,7 @@
   justify-content: center;
 }
 
-.social-icons img {
+.social-icons  {
   width: 30px; 
   height: auto;
   margin-right: 10px; 
@@ -188,27 +188,21 @@
 
 .cardDescription{
   font-size: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .d-grid a{
   color: black;
   text-decoration: none;
-  font-size: 16px;
   font-weight: 600;
-  align-content: center;
 }
 .cards{
   width: 15rem;
   margin-bottom: 20px;
 }
-
-/* @media (max-width: 400px) {
-  .smallpro {
-    height:18rem ;
-    width: 13rem;
-    margin: 10px 50px;
-  }
-} */
 
 
 /* keyframes */
