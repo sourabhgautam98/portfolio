@@ -2,13 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { TfiHtml5 } from "react-icons/tfi";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { BsBootstrapFill } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { IoLogoFigma } from "react-icons/io5";
 
 const Skills = () => {
   return (
@@ -18,13 +11,14 @@ const Skills = () => {
     <div className='image-container'>
     <Container >
       <Row>
-        <Col xs={12} sm={6} md={4} lg={3}><TfiHtml5 color='#DD4B25' className='skillsicon'/></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><IoLogoCss3 color='#254BDD' className='skillsicon'/></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><IoLogoJavascript color='#EFD31D' className='skillsicon'/></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><FaReact color='#5ED3F3' className='skillsicon'/></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><BsBootstrapFill color='#6F11EF' className='skillsicon'/></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><FaGithub color='#000000' className='skillsicon'/></Col>
-        <Col xs={12} sm={6} md={4} lg={3}><IoLogoFigma  className='skillsicon'/></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/Html.jpg' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/Css.jpg' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/Javascript.jpg' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/React.jpg' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/Bootstrap.png' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/Github.png' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/Figma.jpg' alt="" /></Col>
+        <Col xs={12} sm={6} md={4} lg={3}><img src='./assets/AdobeXD.jpg' alt="" /></Col>
       </Row>
     </Container>
         </div>
