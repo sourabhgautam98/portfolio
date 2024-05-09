@@ -39,29 +39,6 @@ function Contact() {
               provided email address. Let's start a conversation and bring your
               ideas to life!
             </p>
-            <div className="icons">
-              <div className="row">
-                <i className="fas fa-user"></i>
-                <div className="info">
-                  <div className="head">Name</div>
-                  <div className="sub-title">Sourabh Gautam</div>
-                </div>
-              </div>
-              <div className="row">
-                <i className="fas fa-map-marker-alt"></i>
-                <div className="info">
-                  <div className="head">Address</div>
-                  <div className="sub-title">Jaipur, India</div>
-                </div>
-              </div>
-              <div className="row">
-                <i className="fas fa-envelope"></i>
-                <div className="info">
-                  <div className="head">Email</div>
-                  <div className="sub-title">Gautamsourabh98@gmail.com</div>
-                </div>
-              </div>
-            </div>
           </div>
           <div className="column right">
             <div className="text">Message me</div>

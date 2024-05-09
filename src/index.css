@@ -299,27 +299,7 @@ section .title::after{
 .contact .contact-content .left p{
     text-align: justify;
 }
-.contact .contact-content .left .icons{
-    margin: 10px 0;
-}
-.contact .contact-content .row{
-    display: flex;
-    height: 65px;
-    align-items: center;
-}
-.contact .contact-content .row .info{
-    margin-left: 30px;
-}
-.contact .contact-content .row i{
-    font-size: 25px;
-    color: #55c2da;
-}
-.contact .contact-content .info .head{
-    font-weight: 500;
-}
-.contact .contact-content .info .sub-title{
-    color: #333;
-}
+
 .contact .right form .fields{
     display: flex;
 }
@@ -503,10 +483,11 @@ section .title::after{
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 30px;
+         line-height:2;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 20px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
@@ -516,7 +497,7 @@ section .title::after{
         flex-direction: column;
     }
     .contact .right form .name,
-    .contact .right form .email{
+    .contact .right form {
         margin: 0;
     }
     .right form .error-box{
@@ -530,13 +511,7 @@ section .title::after{
         font-size: 23px;
         line-height: 38px;
     }
-}
-
-
-@media (max-width: 300px) {
-    .sub-title{
-        font-size: 10px;
-    }
+ 
 }
 
 
